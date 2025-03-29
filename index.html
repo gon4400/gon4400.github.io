@@ -3,10 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon Portfolio</title>
+    <title>Portfolio - Développeur Mobile</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <h1>Bienvenue sur mon portfolio !</h1>
-    <p>Je suis développeur web...</p>
+<body class="bg-gray-100 text-gray-900">
+    
+    <!-- Header -->
+    <header class="bg-blue-600 text-white text-center py-6">
+        <h1 class="text-4xl font-bold">Pierre Meignan</h1>
+        <p class="text-lg">Développeur Mobile | Swift | Kotlin | Flutter</p>
+    </header>
+    
+    <!-- À propos -->
+    <section class="max-w-4xl mx-auto my-10 p-6 bg-white shadow-lg rounded-lg">
+        <h2 class="text-3xl font-bold">À propos</h2>
+        <p class="mt-4">Passionné par le développement mobile depuis plus de 5 ans, j'ai travaillé sur diverses applications iOS et Android, en utilisant des technologies modernes comme Flutter, Swift et Kotlin.</p>
+    </section>
+    
+    <!-- Projets -->
+    <section class="max-w-4xl mx-auto my-10 p-6 bg-white shadow-lg rounded-lg">
+        <h2 class="text-3xl font-bold">Projets</h2>
+        <div class="mt-4 space-y-4">
+            <div class="p-4 bg-gray-200 rounded-lg">
+                <h3 class="text-xl font-semibold">Application 1</h3>
+                <p>Application de gestion de tâches, développée en Flutter.</p>
+                <a href="#" class="text-blue-600 font-semibold">Voir sur GitHub</a>
+            </div>
+            <div class="p-4 bg-gray-200 rounded-lg">
+                <h3 class="text-xl font-semibold">Application 2</h3>
+                <p>Application de e-commerce avec paiement intégré.</p>
+                <a href="#" class="text-blue-600 font-semibold">Voir sur Play Store</a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact -->
+    <section class="max-w-4xl mx-auto my-10 p-6 bg-white shadow-lg rounded-lg text-center">
+        <h2 class="text-3xl font-bold">Contact</h2>
+        <p class="mt-4">Envie de collaborer ? Contactez-moi !</p>
+        <a href="mailto:contact@example.com" class="mt-4 inline-block bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold">Me Contacter</a>
+    </section>
+
+    <footer class="text-center py-6 bg-gray-800 text-white">
+        <p>&copy; 2024 Pierre Meignan - Tous droits réservés.</p>
+    </footer>
+    
 </body>
 </html>
