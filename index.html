@@ -3,91 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - Ingénieur Consultant Mobile</title>
+    <title>Portfolio - Développeur Mobile</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gray-100 text-gray-900">
-    
-    <!-- Header -->
-    <header class="bg-blue-600 text-white text-center py-6">
-        <h1 class="text-4xl font-bold">Pierre Meignan</h1>
-        <p class="text-lg">Ingénieur Consultant | Développeur Mobile | Android & iOS</p>
-    </header>
-    
-    <!-- À propos -->
-    <section class="max-w-4xl mx-auto my-10 p-6 bg-white shadow-lg rounded-lg">
-        <h2 class="text-3xl font-bold">À propos</h2>
-        <p class="mt-4">Développeur mobile avec plus de 5 ans d'expérience, spécialisé en Kotlin, Jetpack Compose, Swift et Flutter. J'ai travaillé sur des applications Android et iOS de grande envergure, en mettant l'accent sur l'expérience utilisateur et les performances.</p>
-        <h3 class="text-2xl font-semibold mt-6">Mon parcours :</h3>
-        <ul class="mt-4 list-disc pl-6">
-            <li>Ingénieur Consultant chez Extia – Semitan (2023 - 2024)</li>
-            <li>Lead Développeur Android chez Semitan (2023 - 2024)</li>
-            <li>Développeur Android chez Galeries Lafayette (2023)</li>
-            <li>Lead Développeur Mobile IOS/Android chez Groupe Arrows (2019 - 2023)</li>
-            <li>Développeur Android chez Babilou (2022 - 2023)</li>
-        </ul>
-    </section>
-    
-    <!-- Expériences -->
-    <section class="max-w-4xl mx-auto my-10 p-6 bg-white shadow-lg rounded-lg">
-        <h2 class="text-3xl font-bold">Expériences</h2>
-        <div class="mt-4 space-y-4">
-            <div class="p-4 bg-gray-200 rounded-lg">
-                <h3 class="text-xl font-semibold">Ingénieur Consultant - Extia (Semitan)</h3>
-                <p>Développement et amélioration d'applications Android pour la gestion des services de transport. Utilisation de Kotlin, Jetpack Compose et bonnes pratiques Android.</p>
-            </div>
-            <div class="p-4 bg-gray-200 rounded-lg">
-                <h3 class="text-xl font-semibold">Lead Développeur Android - Semitan</h3>
-                <p>Conception et optimisation des applications Android natives pour les conducteurs connectés. Travail en équipe agile, intégration d'API et optimisation UI/UX.</p>
-            </div>
-            <div class="p-4 bg-gray-200 rounded-lg">
-                <h3 class="text-xl font-semibold">Développeur Android - Galeries Lafayette</h3>
-                <p>Développement d'une application Android de connexion NFC aux services Microsoft, intégration de MSAL et mise en place de liens profonds avec Power Apps.</p>
-            </div>
-            <div class="p-4 bg-gray-200 rounded-lg">
-                <h3 class="text-xl font-semibold">Lead Développeur Mobile - Groupe Arrows</h3>
-                <p>Développement et portage des applications T4U et MyBatteryHealth sur iOS et Android. Intégration d'achats in-apps et amélioration des performances.</p>
+<body class="bg-gray-900 text-white">
+
+    <!-- Navbar -->
+    <nav class="bg-blue-800 p-4">
+        <div class="max-w-6xl mx-auto flex justify-between items-center">
+            <a href="#" class="text-2xl font-semibold text-white">Pierre Meignan</a>
+            <div class="space-x-6">
+                <a href="#about" class="hover:text-blue-300">À propos</a>
+                <a href="#projects" class="hover:text-blue-300">Projets</a>
+                <a href="#skills" class="hover:text-blue-300">Compétences</a>
+                <a href="#contact" class="hover:text-blue-300">Contact</a>
             </div>
         </div>
-    </section>
-    
-    <!-- Projets -->
-    <section class="max-w-4xl mx-auto my-10 p-6 bg-white shadow-lg rounded-lg">
-        <h2 class="text-3xl font-bold">Projets</h2>
-        <div class="mt-4 space-y-4">
-            <div class="p-4 bg-gray-200 rounded-lg flex items-center space-x-4">
-                <img src="https://via.placeholder.com/100" alt="Info Traffic" class="w-24 h-24 rounded-lg">
-                <div>
-                    <h3 class="text-xl font-semibold">Info Traffic</h3>
-                    <p>Application pour suivre les perturbations du réseau Naolib. Développement en Kotlin avec Jetpack Compose.</p>
-                    <a href="https://github.com/gon4400/gon4400.github.io/tree/main" class="text-blue-600 font-semibold hover:underline">Voir sur GitHub</a>
-                </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="h-screen bg-cover bg-center" style="background-image: url('https://via.placeholder.com/1500');">
+        <div class="flex justify-center items-center h-full bg-black bg-opacity-50">
+            <div class="text-center text-white p-6">
+                <h1 class="text-5xl font-bold">Pierre Meignan</h1>
+                <p class="text-2xl mt-4">Développeur Mobile | Android & iOS | Passionné par l'innovation</p>
+                <a href="#contact" class="mt-6 inline-block bg-blue-500 text-white py-3 px-6 rounded-full text-lg">Contactez-moi</a>
             </div>
-            <div class="p-4 bg-gray-200 rounded-lg flex items-center space-x-4">
-                <img src="https://via.placeholder.com/100" alt="Planchettes" class="w-24 h-24 rounded-lg">
-                <div>
-                    <h3 class="text-xl font-semibold">Planchettes</h3>
-                    <p>Application fournissant des informations en temps réel aux conducteurs (hauteur véhicule, arrêts proches, événements).</p>
-                    <a href="#" class="text-blue-600 font-semibold hover:underline">Voir sur Play Store</a>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-    <!-- Contact -->
-    <section class="max-w-4xl mx-auto my-10 p-6 bg-white shadow-lg rounded-lg text-center">
-        <h2 class="text-3xl font-bold">Contact</h2>
-        <p class="mt-4">Envie de collaborer ? Contactez-moi !</p>
-        <a href="mailto:contact@example.com" class="mt-4 inline-block bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition duration-300">Me Contacter</a>
-        <div class="mt-6">
-            <a href="https://github.com/gon4400" class="text-blue-600 font-semibold hover:underline mx-4" target="_blank">Mon GitHub</a>
-            <a href="https://www.linkedin.com/in/tonprofil" class="text-blue-600 font-semibold hover:underline mx-4" target="_blank">Mon LinkedIn</a>
         </div>
     </section>
 
-    <footer class="text-center py-6 bg-gray-800 text-white">
-        <p>&copy; 2024 Pierre Meignan - Tous droits réservés.</p>
+    <!-- À propos -->
+    <section id="about" class="py-16 bg-gray-800">
+        <div class="max-w-6xl mx-auto text-center">
+            <h2 class="text-4xl font-semibold mb-6">À propos de moi</h2>
+            <p class="text-lg text-gray-400">Je suis un développeur mobile avec plus de 5 ans d'expérience dans la création d'applications Android et iOS performantes. Mon expertise inclut des technologies comme Kotlin, Swift, Flutter, et React Native.</p>
+        </div>
+    </section>
+
+    <!-- Projets -->
+    <section id="projects" class="py-16 bg-gray-900">
+        <div class="max-w-6xl mx-auto text-center">
+            <h2 class="text-4xl font-semibold text-white mb-6">Projets</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+                <!-- Projet 1 -->
+                <div class="bg-gray-800 p-6 rounded-lg shadow-lg hover:scale-105 transition duration-300">
+                    <img src="https://via.placeholder.com/400" alt="Project 1" class="rounded-md w-full h-56 object-cover mb-4">
+                    <h3 class="text-xl font-semibold text-white">Info Traffic</h3>
+                    <p class="text-gray-400">Suivi des perturbations du réseau Naolib, développement avec Kotlin et Jetpack Compose.</p>
+                    <a href="https://github.com/gon4400/gon4400.github.io" class="mt-4 inline-block text-blue-400 hover:underline">Voir sur GitHub</a>
+                </div>
+                <!-- Projet 2 -->
+                <div class="bg-gray-800 p-6 rounded-lg shadow-lg hover:scale-105 transition duration-300">
+                    <img src="https://via.placeholder.com/400" alt="Project 2" class="rounded-md w-full h-56 object-cover mb-4">
+                    <h3 class="text-xl font-semibold text-white">Planchettes</h3>
+                    <p class="text-gray-400">Application permettant aux conducteurs de vérifier la hauteur de leur véhicule et d'autres informations en temps réel.</p>
+                    <a href="#" class="mt-4 inline-block text-blue-400 hover:underline">Voir sur Play Store</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Compétences -->
+    <section id="skills" class="py-16 bg-gray-800">
+        <div class="max-w-6xl mx-auto text-center">
+            <h2 class="text-4xl font-semibold text-white mb-6">Compétences</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+                <div class="bg-gray-700 p-6 rounded-lg">
+                    <h3 class="text-xl font-semibold text-white">Kotlin</h3>
+                    <p class="text-gray-400">Expert en développement d'applications Android natives avec Kotlin et Jetpack Compose.</p>
+                </div>
+                <div class="bg-gray-700 p-6 rounded-lg">
+                    <h3 class="text-xl font-semibold text-white">Swift</h3>
+                    <p class="text-gray-400">Développement d'applications iOS performantes avec Swift et UIKit.</p>
+                </div>
+                <div class="bg-gray-700 p-6 rounded-lg">
+                    <h3 class="text-xl font-semibold text-white">Flutter</h3>
+                    <p class="text-gray-400">Création d'applications multiplateformes avec Flutter, pour un développement rapide et performant.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="py-16 bg-gray-900 text-center">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-4xl font-semibold text-white mb-6">Contactez-moi</h2>
+            <p class="text-lg text-gray-400 mb-6">Je suis toujours ouvert à de nouvelles collaborations. N'hésitez pas à me contacter !</p>
+            <a href="mailto:contact@example.com" class="inline-block bg-blue-500 text-white py-3 px-6 rounded-full text-lg">Envoyer un message</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-blue-800 py-6 text-center text-white">
+        <p>&copy; 2024 Pierre Meignan - Développeur Mobile</p>
     </footer>
-    
+
 </body>
 </html>
